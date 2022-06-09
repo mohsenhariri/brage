@@ -1,4 +1,3 @@
-# https://www.gnu.org/software/make/manual/make.html
 PATH := ./env/bin:${PATH}
 PY :=  $(VIRTUAL_ENV)/bin/python3
 
@@ -88,6 +87,9 @@ pylint:
 pylint-prod:
 		pylint --rcfile .pylintrc.prod $(SRC)
 
+sort:
+		isort $(SRC)
+
 format:
 		black $(SRC)
 
@@ -107,3 +109,7 @@ g-log:
 
 %: # https://www.gnu.org/software/make/manual/make.html#Automatic-Variables 
 		@:
+
+
+app:
+		$(PY) $(SRC)/app.py

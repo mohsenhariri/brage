@@ -2,6 +2,10 @@
 
 Brain MRI Preprocessing 🧠🧠
 
+
+![](processed.png)
+
+
 ### Bootstrap
 
 ```
@@ -30,8 +34,8 @@ Brain MRI Preprocessing 🧠🧠
 
 ### ToDo
 
-- [x] Formatter: Black
-- [x] Type checker: MyPy
-- [x] Linter: Pylint
-- [x] GitHub Actions
-- [ ] Git Hooks
+- [x] Removing background
+- [x] Removing slices with no information
+- [x] Cropping images
+- [x] Removing useless masks
+- [ ] Adding image metrics

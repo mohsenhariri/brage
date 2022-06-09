@@ -3,7 +3,8 @@ Longer description of this module.
 
 """
 # Built-in
-import os, sys
+import os
+import sys
 
 # Third Party
 import numpy as np
