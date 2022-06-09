@@ -1,4 +1,3 @@
-
 import argparse
 
 parser = argparse.ArgumentParser(description="URL of file or folder")

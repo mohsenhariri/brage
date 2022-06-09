@@ -1,6 +1,6 @@
-# Python Template
+# Brage
 
-A [simple] [general-purpose] Python template 🐍🚀🎉🦕
+Brain MRI Preprocessing 🧠🧠
 
 ### Bootstrap
 
@@ -20,17 +20,13 @@ A [simple] [general-purpose] Python template 🐍🚀🎉🦕
     make test
 ```
 
-### Install a package
+### Packages
 
-```
-    make piu numpy matplotlib scipy
-```
+- NiBabel
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-## Features
-
-- Linter: Pylint
-- Formatter: Black
-- CI: GitHub Actions
 
 ### ToDo
 
